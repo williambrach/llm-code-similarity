@@ -1,8 +1,8 @@
 import argparse
 import os
 
-from dotenv import load_dotenv
 import openai
+from dotenv import load_dotenv
 from openai import AzureOpenAI, OpenAI
 
 from src.similarity_finder import process_files
